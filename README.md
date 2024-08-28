@@ -39,8 +39,10 @@ I had a [Kuzyatech Sharp Memory Display](http://kuzyatech.com/sharp-memory-lcd-b
 #define DISPGND 12     
 #define DISPVIN 13   
 
-There is a menu system and animations to help you to know which state the cooker is in.
+There is a menu system and animations to help you to know which state the cooker is in.  When it is boiling there is a fire icon and when it is done boiling, you can see a steaming cup of coffee.
+
 <img src="https://github.com/franklinr/progIHstove/blob/fcb0dbe0c5b8c2733403bf20804b348adfea4efb/img/boiling2.gif" width="50%">
-To create icons for the display, I used this page.
+
+To create icons for the display, I used these pages.
 https://animator.wokwi.com/
 https://javl.github.io/image2cpp/
