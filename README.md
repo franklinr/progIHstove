@@ -1,5 +1,6 @@
 # Programmable Induction (IH) Stove
-<img src="[Assets/icon.png](https://github.com/franklinr/progIHstove/blob/e387c80c00e89c76ea5ebb6e7dbc109dc4d39371/img/stove.JPG)" width="50%">
+
+<img src="https://github.com/franklinr/progIHstove/blob/e387c80c00e89c76ea5ebb6e7dbc109dc4d39371/img/stove.JPG" width="50%">
 
 ![ih stove.](https://github.com/franklinr/progIHstove/blob/e387c80c00e89c76ea5ebb6e7dbc109dc4d39371/img/stove.JPG | width=50%)
 
