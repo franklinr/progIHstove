@@ -15,7 +15,7 @@ I selected a IH stove with simple set of buttons that directly controlled each f
 It was possible to power the relays from the internal power of the stove, so I added a separate USB power input using a usb connector that I had.  
 
 My ESP32 is compatible with WROOM-32, so this figure is very helpful.
-<img src="https://github.com/franklinr/progIHstove/blob/2586dcae3c2a910aae263b45e9cf32c4718fc44b/img/inside.JPG" width="20%">
+<img src="https://github.com/franklinr/progIHstove/blob/379445491d65839147cecad2d8e82a6b277183f8/img/esp32pins.png" width="100%">
 
 If you connect the ESP32 to the relays, then toggling the relays will often reset the ESP32.  To understand it, read [this](https://forum.arduino.cc/t/rc-snubber-on-relay-controlling-motorized-ball-valves/964863/9).  The solution is to disconnect the jumper and make sure that ground of ESP32 is not connect to the relay GND, as shown [here by Paul B](https://forum.arduino.cc/t/rc-snubber-on-relay-controlling-motorized-ball-valves/964863/9). The USB 5V is connected to the JD-VCC at the jumper and USB GND is connected to the relay GND.  Here are the pins on the ESP32 that are used to control the relay.
 const int RELAY1LOWER = 15;  
