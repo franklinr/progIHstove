@@ -9,10 +9,11 @@ I selected a IH stove with simple set of buttons that directly controlled each f
 
 I connect each button on the stove's green control board to a [5V module with 4 relays](https://www.amazon.co.jp/-/en/ELEGOO-Relay-Arduino-MEGA-STM32/dp/B0718WX35W). 
 
+<p float="left">
 <img src="https://github.com/franklinr/progIHstove/blob/2586dcae3c2a910aae263b45e9cf32c4718fc44b/img/inside.JPG" width="20%">
 <img src="https://github.com/franklinr/progIHstove/blob/9e98dde0bea082a2186d8779b2eb4c8dfe6418aa/img/usb.JPG" width="20%">
 <img src="https://github.com/franklinr/progIHstove/blob/9e98dde0bea082a2186d8779b2eb4c8dfe6418aa/img/jumper.JPG" width="20%">
-
+</p>
 
 It was possible to power the relays from the internal power of the stove, so I added a separate USB power input using a usb connector that I had.
 
