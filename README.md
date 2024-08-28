@@ -44,5 +44,7 @@ There is a menu system and animations to help you to know which state the cooker
 <img src="https://github.com/franklinr/progIHstove/blob/fcb0dbe0c5b8c2733403bf20804b348adfea4efb/img/boiling2.gif" width="50%">
 
 To create icons for the display, I used these pages.
+
 https://animator.wokwi.com/
+
 https://javl.github.io/image2cpp/
