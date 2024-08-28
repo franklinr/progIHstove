@@ -40,7 +40,7 @@ I had a [Kuzyatech Sharp Memory Display](http://kuzyatech.com/sharp-memory-lcd-b
 #define DISPVIN 13   
 
 There is a menu system and animations to help you to know which state the cooker is in.
-<img src="https://github.com/franklinr/progIHstove/blob/fcb0dbe0c5b8c2733403bf20804b348adfea4efb/img/boiling2.gif" width="100%">
+<img src="https://github.com/franklinr/progIHstove/blob/fcb0dbe0c5b8c2733403bf20804b348adfea4efb/img/boiling2.gif" width="50%">
 To create icons for the display, I used this page.
 https://animator.wokwi.com/
 https://javl.github.io/image2cpp/
