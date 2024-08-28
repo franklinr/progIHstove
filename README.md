@@ -22,6 +22,11 @@ const int RELAY1LOWER = 15;
 const int RELAY2RAISE = 2;   
 const int RELAY3ON = 4;      
 const int RELAY4OFF = 16;  
+ 
+To select the recipe to run, I connected two pushbuttons to 34 and 35.  There is an extra LED that is used to illuminate the screen that is connected to 23.
+const int BUTTON1 = 35;      
+const int BUTTON2 = 34;      
+const int DISPLAYLED = 23;
 
 I had a [Kuzyatech Sharp Memory Display](http://kuzyatech.com/sharp-memory-lcd-breakout-a2) laying around that I decided to use for the display. 
   I used these connections to the ESP32 pins.
@@ -32,13 +37,10 @@ I had a [Kuzyatech Sharp Memory Display](http://kuzyatech.com/sharp-memory-lcd-b
 #define DISP 27        
 #define EXTMODE 14     
 #define DISPGND 12     
-#define DISPVIN 13    
+#define DISPVIN 13   
 
-I connected two pushbuttons to 34 and 35.  There is an extra LED that is used to illuminate the screen that is connected to 23.
-const int BUTTON1 = 35;      
-const int BUTTON2 = 34;      
-const int DISPLAYLED = 23;
-
+There is a menu system and animations to help you to know which state the cooker is in.
+<img src="https://github.com/franklinr/progIHstove/blob/fcb0dbe0c5b8c2733403bf20804b348adfea4efb/img/boiling2.gif" width="100%">
 To create icons for the display, I used this page.
 https://animator.wokwi.com/
 https://javl.github.io/image2cpp/
