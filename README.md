@@ -38,3 +38,7 @@ I connected two pushbuttons to 34 and 35.  There is an extra LED that is used to
 const int BUTTON1 = 35;      
 const int BUTTON2 = 34;      
 const int DISPLAYLED = 23;
+
+To create icons for the display, I used this page.
+https://animator.wokwi.com/
+https://javl.github.io/image2cpp/
